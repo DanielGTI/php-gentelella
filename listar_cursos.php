@@ -11,7 +11,7 @@
             <?php
                     require_once 'topmenu.php';
                     require_once 'sidemenu.php';
-                    require_once 'view/content.php';
+                    require_once 'view/view_cursos.php';
                     require_once 'footer.php';
                     require_once 'script.php';                  
             ?>

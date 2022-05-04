@@ -16,6 +16,9 @@
 
     <!-- Custom Theme Style -->
     <link href="css/custom.min.css" rel="stylesheet">
+
+        <!-- Animate.css -->
+        <link href="css/animate.min.css" rel="stylesheet">
   </head>
 
   
