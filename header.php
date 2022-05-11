@@ -1,3 +1,14 @@
+<?php
+
+  session_start();
+      
+  // Inicio da sessao
+  if( !isset($_SESSION['nome_user'])  && $_SERVER['REQUEST_URI'] != "/php-gentelella/login.php" ){
+      header("Location: login.php");
+      exit();   
+  }
+?>
+
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-    require_once 'header.php';
+    require_once 'header.php'; 
 ?>
 
   <body class="login">
@@ -13,16 +13,16 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form name="form_login" action="index.php" method="POST">
+            <form name="form_login" action="acesso.php" method="POST">
               <h1>Login - PHP</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" name="email" class="form-control" placeholder="Username" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" name="senha" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.php">Log in</a>
+                <input type="submit" value="Logar">              
                 <a class="reset_pass" href="#">Perdeu a sua senha?</a>
               </div>
 
