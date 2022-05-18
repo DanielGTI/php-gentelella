@@ -41,7 +41,37 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                      Listar todos os alunos ...
+                      Listar todos os alunos ...<br>
+
+
+                    <div class="login_wrapper">
+                    <section class="login_content">
+                      <form name="form_calcular" action="teste.php" method="POST">
+                        <h1>Calcular - PHP</h1>
+                        <div>
+                          <input type="number" name="valor1" class="form-control" placeholder="Valor 1" required="" />
+                        </div>
+                        <div>
+                          <input type="number" name="valor2" class="form-control" placeholder="Valor 2" required="" />
+                        </div>
+                        <div>
+                          <select name="operacao" class="form-control" placeholder="Escolha a Operação">
+                            <option value="+">Soma (+)</option>
+                            <option value="-">Subtração (-)</option>
+                            <option value="*">Multiplicação (*)</option>
+                            <option value="/">Divisão (/)</option>
+                          </select>
+                        </div>
+                        <br>
+                        <div>
+                          <input type="submit" value="Calcular" class="btn btn-primary">              
+                        </div>
+                      </form>
+                    </section>
+                    </div>
+
+
+                    
                   </div>
                 </div>
               </div>
